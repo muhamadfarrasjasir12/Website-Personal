@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhamad Farras Jasir | Portofolio</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="container" id="nav">
+          <div class="brand">
+            <h3>My Portofolio</h3>
+          </div>
+          <div class="nav">
+            <ul>
+              <li>
+                <a id="personal" onclick="personal()" href="#personal_details"
+                  >Personal Details</a
+                >
+              </li>
+              <li>
+                <a id="edu" onclick="edu()" href="#edu_and_org">Educations</a>
+              </li>
+              <li>
+                <a id="person" onclick="person()" href="#personality"
+                  >Personality</a
+                >
+              </li>
+              <li><a id="skill" onclick="skill()" href="#skills">Skills</a></li>
+              <li>
+                <a id="job" onclick="job()" href="#job_experiences"
+                  >Job Experiences</a
+                >
+              </li>
+              <li>
+                <a id="certificate" href="#certificates">Certificates</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <figure class="avatar">
+          <img src="Assets/fr2.jpeg" alt="avatar-image" />
+          <figcaption>&lt;Muhamad Farras Jasir &gt;</figcaption>
+        </figure>
+        <ul>
+          <li>
+            <a
+              href="https://www.dicoding.com/"
+              target="_blank"
+              class="btn dicoding"
+              >Dicoding</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/muhamadfarrasjasir12"
+              target="_blank"
+              class="btn github"
+              >Github</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              target="_blank"
+              class="btn linkedin"
+              id="show_personal"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </aside>
+
+      <div id="content">
+        <div class="container-left">
+          <article id="personal_details">
+            <h2>Personal Details</h2>
+            <ul>
+              <li>
+                <p class="label">Name -</p>
+                <p class="value">Muhamad Farras Jasir</p>
+              </li>
+              <li>
+                <p class="label">Date Of Birth -</p>
+                <p class="value">12 Juni, 2004</p>
+              </li>
+              <li>
+                <p class="label">Gender -</p>
+                <p class="value">Male</p>
+              </li>
+              <li>
+                <p class="label">Address -</p>
+                <p class="value">Cibitung, Kabupaten Bekasi</p>
+              </li>
+              <li>
+                <p class="label">Marital Status -</p>
+                <p class="value">Single</p>
+              </li>
+              <li>
+                <p class="label">Religion -</p>
+                <p class="value">Islam</p>
+              </li>
+              <li>
+                <p class="label">Nationality -</p>
+                <p class="value">Indonesia</p>
+              </li>
+              <li>
+                <p class="label">Phone -</p>
+                <p class="value" id="show_edu">089519649447</p>
+              </li>
+              <li>
+                <p class="label">Email -</p>
+                <p class="value">muhamadfarras62@gmail.com</p>
+              </li>
+            </ul>
+          </article>
+          <article id="edu_and_org">
+            <h2>Educations & Organitations</h2>
+            <table>
+              <tr>
+                <th>2010 - 2016</th>
+                <td><strong>SD Negeri Wanajaya 04</strong></td>
+              </tr>
+              <tr>
+                <th>2016 - 2019</th>
+                <td><strong>SMP Negeri 2 Cikarang Barat</strong></td>
+              </tr>
+              <tr>
+                <th>2019 - 2022</th>
+                <td><strong>SMK 10 NOVEMBER BEKASI</strong></td>
+              </tr>
+              <tr>
+                <th>|</th>
+                <td>Anggota ESTRAKULIKULER BASKET</td>
+              </tr>
+                <th>2022 - Now</th>
+                <td>
+                  <strong
+                    >Universitas Pelita Bangsa - Teknik Informatika</strong
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th>|</th>
+                <td id="show_person">
+                  Pengurus Himatif Periode 2024
+                </td>
+              </tr>
+              <tr>
+                <th>|</th>
+                <td>Wakil Departemen Penelitian Dan Pengembangan (LITBANG)</td>
+              </tr>
+            </table>
+          </article>
+          <article id="personality">
+            <h2>Personality</h2>
+            <p id="show_skills">
+              Good Attitude, Leadership, Discipline, Communicative, Target
+              Oriented, On Time, Easily Bored, Honest, Tolerant, Respectful.
+            </p>
+          </article>
+        </div>
+        <div class="container-right">
+          <article id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>
+                <p>HTML</p>
+                <div class="progress">
+                  <div class="progress_bar html"></div>
+                  <div class="percentage">
+                    <p>90%</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p>CSS</p>
+                <div class="progress">
+                  <div class="progress_bar css"></div>
+                  <div class="percentage">
+                    <p>70%</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p>PHP</p>
+                <div class="progress">
+                  <div class="progress_bar php"></div>
+                  <div class="percentage">
+                    <p>70%</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p>Javascript</p>
+                <div class="progress">
+                  <div class="progress_bar js"></div>
+                  <div class="percentage">
+                    <p>50%</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p>Adobe Photoshop</p>
+                <div class="progress">
+                  <div class="progress_bar ps"></div>
+                  <div class="percentage">
+                    <p>60%</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p>Adobe Priemare Pro</p>
+                <div class="progress">
+                  <div class="progress_bar pp"></div>
+                  <div class="percentage">
+                    <p>80%</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p>Microsoft Word</p>
+                <div class="progress">
+                  <div class="progress_bar word"></div>
+                  <div class="percentage">
+                    <p>90%</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p>Microsoft PowerPoint</p>
+                <div class="progress">
+                  <div class="progress_bar ppt"></div>
+                  <div class="percentage">
+                    <p>80%</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </article>
+          <article id="job_experiences">
+            <h2>Job Experiences</h2>
+            <table>
+              <tr>
+                <th>2024 - Now</th>
+                <td>
+                  <strong> production office - PT. MENCARI CINTA SEJATI</strong>
+                </td>
+              </tr>
+            </table>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2024 - Dibuat dengan Cinta oleh Muhamad Farras Jasir"</p>
+    </footer>
+
+    <script src="Script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,423 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+
+/* Start Main Style */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* End Main Style */
+
+/* Start Header Style */
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.brand {
+  flex-grow: 1;
+}
+
+.brand h3 {
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.nav ul li {
+  display: inline;
+  padding: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: darkgray;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.nav ul li a:hover {
+  color: black;
+}
+
+/* End Header Style */
+
+/* Start Aside Style */
+
+aside {
+  float: left;
+  padding: 40px 20px;
+}
+
+.avatar {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.avatar img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.avatar figcaption {
+  margin: 10px 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside ul li {
+  margin: 20px 0;
+}
+
+.btn {
+  display: block;
+  color: white;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.dicoding {
+  background-color: #2d3e50;
+}
+
+.github {
+  background-color: black;
+}
+
+.linkedin {
+  background-color: #007ab5;
+}
+
+/* End Aside Style */
+
+/* Start Content style */
+
+#content {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  border-left: 1px solid rgb(187, 187, 187);
+}
+
+.container-left {
+  flex: 1;
+  padding: 0 0 0 20px;
+}
+
+.container-right {
+  flex: 1;
+  margin: 100px 0 0 0;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+article h2 {
+  font-family: "Playball", cursive;
+  font-size: 2rem;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+#personal_details h2 {
+  margin-top: 0;
+}
+
+#personal_details ul {
+  list-style-type: none;
+}
+
+#personal_details ul .label {
+  margin: 10px 0 2px 0;
+  color: rgb(160, 160, 160);
+  font-size: 0.8rem;
+}
+
+#personal_details ul .value {
+  margin: 0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+#edu_and_org table tr th {
+  color: rgb(160, 160, 160);
+  font-size: 0.8rem;
+}
+
+#edu_and_org table tr td {
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+}
+
+#personality p {
+  font-size: 1rem;
+}
+
+#skills ul {
+  list-style-type: none;
+}
+
+#skills ul li {
+  padding-bottom: 20px;
+}
+
+#skills ul li p {
+  margin: 5px 0;
+  color: rgb(75, 75, 75);
+  font-size: 0.8rem;
+}
+
+.progress {
+  width: 400px;
+  height: 7px;
+  background-color: rgb(194, 194, 194);
+}
+
+.progress_bar {
+  height: 7px;
+  background-color: rgb(48, 65, 212);
+}
+
+.percentage {
+  float: right;
+}
+
+.html {
+  width: 90%;
+}
+
+.css {
+  width: 70%;
+}
+
+.php {
+  width: 50%;
+}
+
+.js {
+  width: 30%;
+}
+
+.ps {
+  width: 60%;
+}
+
+.pp {
+  width: 80%;
+}
+
+.word {
+  width: 90%;
+}
+
+.ppt {
+  width: 80%;
+}
+
+#job_experiences table tr th {
+  color: rgb(160, 160, 160);
+  font-size: 0.8rem;
+}
+
+#job_experiences table tr td {
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 20px;
+}
+
+.container_certificates {
+  display: flex;
+  text-align: center;
+}
+
+.box {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box img:hover {
+  transform: translate(-250%, -100%) scale(5, 5);
+}
+
+/* End Content Style */
+
+/* Start Footer Style */
+
+footer {
+  height: 60px;
+  width: 100%;
+  background-color: #1b1e27;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  color: rgb(218, 218, 218);
+  font-size: 0.8rem;
+}
+
+/* End Footer Style */
+
+/* Mobile Style Responsive*/
+
+@media screen and (max-width: 768px) {
+  /* Start Header Style */
+  .container {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .brand {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav ul li {
+    padding: 2px;
+  }
+
+  .nav ul li a {
+    font-size: 0.6rem;
+  }
+
+  .sticky {
+    top: 0;
+  }
+  /* End Header Style */
+
+  /* Start Aside Style */
+  aside {
+    float: none;
+    padding: 0;
+    margin: 20px;
+    border-bottom: 1px solid black;
+  }
+
+  .avatar {
+    margin: 0 auto;
+  }
+
+  aside ul {
+    margin: 0 auto;
+    padding: 0;
+  }
+  /* End Aside Style */
+
+  /* Start Content Style */
+  #content {
+    display: inline-block;
+    max-width: 100%;
+    padding: 0;
+    margin: 10px 20px;
+    border: none;
+  }
+
+  .value {
+    font-size: 1em !important;
+  }
+
+  .container-right {
+    margin: 0;
+  }
+
+  .progress {
+    width: 90%;
+  }
+
+  .box img:hover {
+    transform: translate(0%, -100%) scale(1, 1) !important;
+  }
+  /* End Content Style */
+}
+
+@media screen and (max-width: 950px) {
+  /* Start Header Style */
+  .nav ul li {
+    padding: 5px;
+  }
+  /* End Header Style */
+
+  /* Start Content Style */
+  .box img:hover {
+    transform: translate(-100%, -100%) scale(2, 2);
+  }
+  /* End Content Style */
+}
+
+@media screen and (max-width: 1350px) {
+  /* Start Content Style */
+  #content {
+    flex-direction: column;
+  }
+
+  .container-right {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .container-left {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .progress {
+    width: 90%;
+  }
+
+  .box img:hover {
+    transform: translate(-100%, -100%) scale(2, 2);
+  }
+  /* End Content Style */
+}
